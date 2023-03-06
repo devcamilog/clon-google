@@ -60,7 +60,7 @@ main .main-input {
     margin-bottom: 35px;
 }
 main .main-input-container {
-    width: 525px;
+    width: 540px;
     border-radius: 100px;
     border: 1px solid #dfe1e5;
     display: flex;
@@ -85,8 +85,6 @@ main .main-input .search-icon {
     width: 16px;
     height: 16px;
     opacity: 0.4;
-    position: relative;
-    left: 10px;
 }
 
 main .main-input .micro-icon {

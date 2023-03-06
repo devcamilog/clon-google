@@ -68,8 +68,46 @@ main .main-input-container {
     align-items: center;
 }
 main .main-input input {
-    width: 450px;
+    width: 408px;
     height: 40px;
     border: none;
     outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon {
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    opacity: 0.4;
+    position: relative;
+    left: 10px;
+}
+
+main .main-input .micro-icon {
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 8px;
+
+}
+main .main-input .camera-icon {
+    background-image: url('/assets/cameraLogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    padding: 0 8px;
 }

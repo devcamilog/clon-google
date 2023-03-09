@@ -34,7 +34,7 @@ nav .nav-right-section a {
     color: #000000;
 }
 nav .nav-right-section .menu-icon {
-    background-image: url(/assets/appLogo.png);
+    background-image: url('/img/appLogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -107,7 +107,7 @@ main .main-input .micro-icon {
 
 }
 main .main-input .camera-icon {
-    background-image: url('/assets/cameraLogo.png');
+    background-image: url('/img/cameraLogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

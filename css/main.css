@@ -34,7 +34,7 @@ nav .nav-right-section a {
     color: #000000;
 }
 nav .nav-right-section .menu-icon {
-    background-image: url(/assets/appLogo.png);
+    background-image: url('assets/appLogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -107,7 +107,7 @@ main .main-input .micro-icon {
 
 }
 main .main-input .camera-icon {
-    background-image: url('/assets/cameraLogo.png');
+    background-image: url('assets/cameraLogo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -172,71 +172,5 @@ footer ul li a {
     color: #70757a;
 }
 @media (min-width:300px) and (max-width: 500px) {
-    body {
-        overflow: hidden;
-        min-width: 300px;
-      }
-    header nav {
-        display: flex;
-        justify-content: center;
-    }
-    nav ul.nav-right-section {
-        display: grid;
-        grid-template-columns: auto auto 1fr auto;
-        width: 100%;
-        margin: 0;
-        padding: 0;
 
-    }
-      
-      .menu-icon {
-        grid-column: 3;
-        justify-self: end;
-      }
-    main {
-        margin-top: 27px;
-        text-align: center;
-    }
-    main .main-logo {
-        width: 397px;
-        margin: 0 auto;
-        margin-bottom: 22px;
-    }
-    main .main-logo img {
-        width: 170px;
-    }
-    main .main-input-container {
-        width: 371px;
-
-    }
-    main .main-input .search-icon {
-        background-image: url(https://img.icons8.com/android/24/000000/search.png);
-        width: 50px;
-        height: 16px;
-    }
-    main .main-input input {
-        width: 408px;
-        height: 27px;
-
-    }
-    main .main-buttons {
-        display: none;
-    }
-    main .main-logo {
-        width: 378px;
-        display: flex;
-        justify-content: center;
-    }
-    footer {
-        height: 116px;
-        display: block;
-        position: absolute;
-        bottom: -43px;
-    }
-    footer .footer-right {
-        position: relative;
-        top: 30px;
-        display: flex;
-        justify-content: center;
-    }
 }

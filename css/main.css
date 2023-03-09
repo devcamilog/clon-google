@@ -34,7 +34,7 @@ nav .nav-right-section a {
     color: #000000;
 }
 nav .nav-right-section .menu-icon {
-    background-image: url('/img/appLogo.png');
+    background-image: url('https://icons.veryicon.com/png/o/internet--web/55-common-web-icons/apps-27.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -107,7 +107,7 @@ main .main-input .micro-icon {
 
 }
 main .main-input .camera-icon {
-    background-image: url('https://icons.veryicon.com/png/o/internet--web/55-common-web-icons/apps-27.png');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS7U8tp8T-vf4vMeJj7VtdOs7yzD2oDrE57g&usqp=CAU');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

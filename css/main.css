@@ -178,14 +178,10 @@ footer ul li a {
         height: 4.0rem;
     }
     header nav {
-        justify-content: center;
+        justify-content: flex-end;
     }
-    header nav .nav-right-section {
-        display: none;
-    }
-    nav .nav-right-section img {
-        display: none;
-    }
+    
+   
     main {
         margin-top: 120px;
     }
